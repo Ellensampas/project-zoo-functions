@@ -9,4 +9,6 @@ function getEmployeeByName(employeeName) {
     .firstName === employeeName || element.lastName === employeeName);
 }
 
+console.log(getEmployeeByName('N'))
+
 module.exports = getEmployeeByName;
